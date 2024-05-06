@@ -1,0 +1,43 @@
+guard/hit PPSND00
+guard/skeleton PPSND21
+//guards/jaffargreet PPSND26
+//guards/jaffardie PPSND27
+
+player/hurt PPSND01
+player/hitwall PPSND05
+player/footstep PPSND07
+player/bump PPSND12
+player/scream PPSND20
+
+sword/swing PPSND02
+sword/clash PPSND03
+sword/draw PPSND04
+
+traps/spikehit PPSND06
+traps/spikes PPSND25
+traps/slicerhit PPSND22
+traps/slicer PPSND23
+traps/mirror PPSND19
+
+//items/bigpotion PPSND15
+//items/chug PPSND16
+//items/smallpotion PPSND24
+
+doors/gateclose PPSND08
+doors/gateclick PPSND09
+doors/gatefastclose PPSND10
+doors/gateopen PPSND11
+doors/button PPSND13
+//doors/creak PPSND14
+//doors/exitdoorclose PPSND17
+//doors/exitdooropen PPSND18
+
+misc/landdie PPSND28
+misc/landhurt PPSND29
+misc/crash PPSND31
+misc/clicka PPSND32
+misc/clickb PPSND33
+misc/clickc PPSND34
+
+player/death			{ PPSND20 PPSND20 PPSND20 }
+player/usefail			{ PPSND05 PPSND12 PPSND12 }

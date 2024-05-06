@@ -1,0 +1,19 @@
+// Exit strings
+ENDSTR01 = "Do you wish to\ndissapoint your\nprincess?";
+ENDSTR02 = "Perhaps you were\nnever meant to be\nthe prince...";
+ENDSTR03 = "Afraid of the\nbig scary swords?";
+ENDSTR04 = "Jaffar will kill\nthe princess if\nyou do not save\nher, and you flee?";
+ENDSTR05 = "Jaffar is more of a\nman than you will\never be.";
+ENDSTR06 = "Time is running out!\nWhy are you wasting\ntime like this?";
+ENDSTR07 = "Going to start picking\nout decorations for\nyour dungeon cell?";
+ENDSTR08 = "Maybe Word Rescue is\nmore your speed.";
+ENDSTR09 = "It looks like somebody\ndrank the little\nbitch potion.";
+ENDSTR10 = "Jaffar took the kingdom,\nbut it sounds like he\ntook your balls too.";
+ENDSTR11 = "Perhaps the princess is\nbetter off marrying Jaffar\nthan a wimp like you.";
+ENDSTR12 = "Jeez, you make Jake Gyllenhaal\nlook like a better Prince\nof Persia than you.";
+ENDSTR13 = "We should have just called\nDuke Nukem to handle Jaffar...";
+ENDSTR14 = "Press Y to trigger \nthe spike trap.";
+ENDSTR15 = "Oh, have to leave? I'm sure\nyou have plenty of princesses\nto save in real life...";
+ENDSTR16 = "Is the 3d graphics hurting\nyour little baby eyes?";
+ENDSTR17 = "It's alright if you don't\nthink you can do it.\nI mean, I had my doubts\nabout you too. I guess\nI was right.";
+ENDSTR18 = "Ready to be just another\npile of bones that didn't escape\nthe dungeon?";

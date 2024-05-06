@@ -1,0 +1,522 @@
+actor CloseGateDungA 33
+{
+	+SOLID
+	radius 32
+	states
+	{
+		Spawn:
+			GATE A -1
+			stop
+	}
+}
+
+actor CloseGateDungB 50
+{
+	radius 32
+	+SOLID
+	states
+	{
+		Spawn:
+			GATE C -1
+			stop
+	}
+}
+
+actor ColumnDungA 34
+{
+	radius 32
+	+SOLID
+	states
+	{
+		Spawn:
+			CLMN A -1
+			stop
+	}
+}
+
+actor ColumnDungB 51
+{
+	radius 32
+	+SOLID
+	states
+	{
+		Spawn:
+			CLMN B -1
+			stop
+	}
+}
+
+actor PoleDungA 35
+{
+	radius 32
+	+SOLID
+	states
+	{
+		Spawn:
+			POLE A -1
+			stop
+	}
+}
+actor PoleDungB 52
+{
+	radius 32
+	+SOLID
+	states
+	{
+		Spawn:
+			POLE B -1
+			stop
+	}
+}
+
+actor RubbleDungA 36
+{
+	states
+	{
+		Spawn:
+			RUBL A -1
+			stop
+	}
+}
+actor RubbleDungB 55
+{
+	states
+	{
+		Spawn:
+			RUBL B -1
+			stop
+	}
+}
+
+actor BonesDungA 37
+{
+	states
+	{
+		Spawn:
+			BONE A -1 bright
+			stop
+	}
+}
+
+actor DungAPillar 47
+{
+	radius 32
+	+SOLID
+	states
+	{
+		Spawn:
+			PILR A -1
+			stop
+	}
+}
+
+actor DungBPillar 72
+{
+	radius 32
+	+SOLID
+	states
+	{
+		Spawn:
+			PILR B -1
+			stop
+	}
+}
+
+actor DungADust 48
+{
+	radius 32
+	states
+	{
+		Spawn:
+			DUST A -1
+			stop
+	}
+}
+
+actor Dopefish 46
+{
+	radius 32
+	+SOLID
+	states
+	{
+		Spawn:
+			DFSH A -1
+			stop
+	}
+}
+
+actor TheThing 49
+{
+	radius 32
+	+SOLID
+	states
+	{
+		Spawn:
+			THNG A -1
+			stop
+	}
+}
+
+actor TPBJulian 400
+{
+	radius 32
+	+SOLID
+	states
+	{
+		Spawn:
+			TPBA A -1
+			stop
+	}
+}
+
+actor TPBRicky 401
+{
+	radius 32
+	+SOLID
+	states
+	{
+		Spawn:
+			TPBB A -1
+			stop
+	}
+}
+
+actor TPBBubs 402
+{
+	radius 32
+	+SOLID
+	states
+	{
+		Spawn:
+			TPBC A -1
+			stop
+	}
+}
+
+actor TPBWeed : Health 403
+{
+	inventory.amount 420
+	Inventory.MaxAmount 420
+	+ALWAYSPICKUP
+	radius 32
+	states
+	{
+		Spawn:
+			WEED A -1
+			stop
+	}
+}
+
+/*
+actor CallApogee 73
+{
+	radius 32
+	+SOLID
+	states
+	{
+		Spawn:
+			AARD A -1
+			stop
+	}
+}
+
+actor Bones2 74
+{
+	states
+	{
+		Spawn:
+			BON2 A -1
+			stop
+	}
+}
+actor Bones6 : Bones2 129
+{
+	states
+	{
+		Spawn:
+			BON6 A -1
+			stop
+	}
+}
+
+actor Bones3 75
+{
+	states
+	{
+		Spawn:
+			BON3 A -1
+			stop
+	}
+}
+actor BareLightBulb : Bones3 130
+{
+	states
+	{
+		Spawn:
+			BULB A -1
+			stop
+	}
+}
+
+actor Bones4 76
+{
+	states
+	{
+		Spawn:
+			BON4 A -1
+			stop
+	}
+}
+actor GreenSlime : Bones4 131
+{
+	states
+	{
+		Spawn:
+			SLIM A -1
+			stop
+	}
+}
+
+actor Pots 77
+{
+	radius 32
+	states
+	{
+		Spawn:
+			POT2 A -1
+			stop
+	}
+}
+
+actor Stove 78
+{
+	radius 32
+	+SOLID
+	states
+	{
+		Spawn:
+			STOV A -1
+			stop
+	}
+}
+
+actor Spears 79
+{
+	radius 32
+	+SOLID
+	states
+	{
+		Spawn:
+			RACK A -1
+			stop
+	}
+}
+
+actor Vines 80
+{
+	states
+	{
+		Spawn:
+			VINE A -1
+			stop
+	}
+}
+actor Bubbles : Vines 135
+{
+	states
+	{
+		Spawn:
+			BUBL A -1
+			stop
+	}
+}
+
+
+actor TruckRear 91
+{
+	radius 32
+	+SOLID
+	states
+	{
+		Spawn:
+			TRUK A -1
+			stop
+	}
+}
+actor BJWasHere : TruckRear 137
+{
+	states
+	{
+		Spawn:
+			BJWH A -1
+			stop
+	}
+}
+
+actor CageWithSkulls 84
+{
+	radius 32
+	+SOLID
+	states
+	{
+		Spawn:
+			CAG4 A -1
+			stop
+	}
+}
+actor CageWithRat : CageWithSkulls 124
+{
+	states
+	{
+		Spawn:
+			CAG8 A -1
+			stop
+	}
+}
+
+actor CageWithGore 83
+{
+	radius 32
+	+SOLID
+	states
+	{
+		Spawn:
+			CAG3 A -1
+			stop
+	}
+}
+actor CageWithGore2 : CageWithGore 119
+{
+	states
+	{
+		Spawn:
+			CAG5 A -1
+			stop
+	}
+}
+
+actor Skewer 82
+{
+	radius 32
+	+SOLID
+	states
+	{
+		Spawn:
+			SKWR A -1
+			stop
+	}
+}
+actor SkullPile : Skewer 150
+{
+	states
+	{
+		Spawn:
+			SKPI A -1
+			stop
+	}
+}
+
+actor RedCeilingLight 85
+{
+	states
+	{
+		Spawn:
+			RLMP A -1 bright
+			stop
+	}
+}
+actor RedCeilingLight2 : RedCeilingLight 128
+{
+	states
+	{
+		Spawn:
+			RLP2 A -1 bright
+			stop
+	}
+}
+
+actor CowCarcass 86
+{
+	radius 32
+	+SOLID
+	states
+	{
+		Spawn:
+			COWC A -1
+			stop
+	}
+}
+actor ChemicalTable : CowCarcass 132
+{
+	states
+	{
+		Spawn:
+			CHEM A -1
+			stop
+	}
+}
+
+
+actor WellWithBlood 87
+{
+	radius 32
+	+SOLID
+	states
+	{
+		Spawn:
+			WEL3 A -1
+			stop
+	}
+}
+actor NuclearBarrel : WellWithBlood 133
+{
+	states
+	{
+		Spawn:
+			NUKE A -1
+			stop
+	}
+}
+
+actor SatanStatue 88
+{
+	radius 32
+	+SOLID
+	states
+	{
+		Spawn:
+			STAT A -1
+			stop
+	}
+}
+actor BlueColumn : SatanStatue 134
+{
+	states
+	{
+		Spawn:
+			COL4 A -1
+			stop
+	}
+}
+
+actor BrownColumn 89
+{
+	radius 32
+	+SOLID
+	states
+	{
+		Spawn:
+			COL2 A -1
+			stop
+	}
+}
+actor DevilStatue : BrownColumn 136
+{
+	states
+	{
+		Spawn:
+			STT2 A -1
+			stop
+	}
+}
+*/

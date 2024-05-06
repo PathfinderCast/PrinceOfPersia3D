@@ -1,0 +1,42 @@
+actor HealthPotion : Health 57 //Replaces Food
+{
+	inventory.amount 30
+	//Inventory.PickupSound "items/smallpotion"
+	states
+	{
+		Spawn:
+			POTA ABCDEFG 4
+			loop
+	}
+}
+
+actor SuperHealthPotion : Health 66 //Replaces 1up
+{
+	inventory.amount 200
+	Inventory.MaxAmount 200
+	//Inventory.PickupSound "items/bigpotion"
+	states
+	{
+		Spawn:
+			POTB ABCDEFG 4
+			loop
+	}
+}
+
+actor PoisonPotion 39 //Replaces Dogfood
+{
+	radius 8
+	speed 16
+	damage 30
+	deathsound "player/hurt"
+	PROJECTILE
+	states
+	{
+		Spawn:
+			POTC ABCDEFG 4
+			loop
+		Death:
+			POTC A 0
+			stop
+	}
+}

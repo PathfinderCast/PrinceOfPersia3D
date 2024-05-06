@@ -1,0 +1,21 @@
+texture GSTONEA1
+	pic TORCHWLA tics 4
+	pic TORCHWLB tics 4
+	pic TORCHWLC tics 4
+	pic TORCHWLD tics 4
+	pic TORCHWLE tics 4
+	pic TORCHWLF tics 4
+	pic TORCHWLG tics 4
+	pic TORCHWLH tics 4
+	pic TORCHWLI tics 4
+	
+texture GSTONEA2
+	pic TORCHWBA tics 4
+	pic TORCHWBB tics 4
+	pic TORCHWBC tics 4
+	pic TORCHWBD tics 4
+	pic TORCHWBE tics 4
+	pic TORCHWBF tics 4
+	pic TORCHWBG tics 4
+	pic TORCHWBH tics 4
+	pic TORCHWBI tics 4

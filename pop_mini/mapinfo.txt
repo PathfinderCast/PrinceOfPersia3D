@@ -1,0 +1,229 @@
+intermission DemoLoop
+{
+	/*Fader
+	{
+		Background = "FLCLBLAK"
+		Time = -2
+		FadeType = FadeIn
+	}
+	Image
+	{
+		Time = -1.5
+	}
+	Image
+	{
+		Draw = "WJHOLLY", 160, 100
+		Time = -3
+	}
+	Fader
+	{
+		Time = 15
+		FadeType = FadeOut
+	}*/
+	Fader
+	{
+		Background = "FLCLBLAK"
+		Time = 15
+		FadeType = FadeIn
+	}
+	Image
+	{
+		Time = 1.5
+	}
+	Image
+	{
+		Draw = "EXPLAINA", 0, 0
+		Time = -10
+	}
+	Fader
+	{
+		Time = 15
+		FadeType = FadeOut
+	}
+	Fader
+	{
+		Background = "FLCLBLAK"
+		Time = 15
+		FadeType = FadeIn
+	}
+	Image
+	{
+		Time = 1.5
+	}
+	Image
+	{
+		Draw = "EXPLAINB", 0, 0
+		Time = -10
+	}
+	Fader
+	{
+		Time = 15
+		FadeType = FadeOut
+	}
+	Fader
+	{
+		Background = "POPTITLE"
+		Time = 15
+		FadeType = FadeIn
+	}
+	Image
+	{
+		Time = -5
+	}
+	Image
+	{
+		Draw = "MECHNER", 0, 0
+		Time = -5
+	}
+	Image
+	{
+		Draw = "TITLTEXT", 0, 0
+		Time = -10
+	}
+	Image
+	{
+		Time = -100
+	}
+	/*Fader
+	{
+		Time = 15
+		FadeType = FadeOut
+	}*/
+}
+
+gameinfo
+{
+	menufade = "6D 85 2C"
+	menucolors = "#a41300", "#a41300", "#a41300", "#a41300", "#a41300"
+	menufontcolor_title = "Gold"
+	menufontcolor_label = "DarkGray"
+	menufontcolor_selection = "White"
+	menufontcolor_disabled = "Olive"
+	menufontcolor_invalid = "Black"
+	menufontcolor_invalidselection = "Blue"
+	menufontcolor_highlight = "Yellow"
+	menufontcolor_highlightselection = "Gold"
+	highscoresfontcolor = "Untranslated"
+	pageindexfontcolor = "#000000"
+	highscoresfont = "BigFont"
+	highscoresfontcolor = "White"
+	borderflat = "backdrop"
+	border = inset, "00 00 00", "00 00 00", "00 00 00"
+	menumusic = "EPILOGUE"
+	finalemusic = "EPILOGUE"
+	titlemusic = "EPILOGUE"
+	scoresmusic = "EPILOGUE"
+	intermissionmusic = "EPILOGUE"
+	advisorycolor = "00 00 00"
+	advisorypic = "WJHOLLY"
+	finaleflat = "FLCLBLAK"
+	victorymusic = "EPILOGUE"
+	psyched = "#a41300", "#a41300"
+	messagecolors = "#001860", "#f19c03", "#915c00"
+	messagefontcolor = "White"
+	menuwindowcolors = "#001860", "D0 D0 D0", "0 0 0", "#f19c03", "#915c00", "0 0 0"
+	signon = "backdrop"
+	gamepalette = "PLAYPAL"
+	quitmessages =
+		"$ENDSTR01", "$ENDSTR02", "$ENDSTR03", "$ENDSTR04", "$ENDSTR05",
+		"$ENDSTR06", "$ENDSTR07", "$ENDSTR08", "$ENDSTR09", "$ENDSTR10",
+		"$ENDSTR11", "$ENDSTR12", "$ENDSTR13", "$ENDSTR14", "$ENDSTR15",
+		"$ENDSTR16", "$ENDSTR17", "$ENDSTR18"
+	deathtransition = "Fizzle"
+	playerclasses = "ThePrince"
+	translator = "xlat/persia.txt"
+}
+
+clearskills
+skill baby
+{
+	name = "My feet are sore"
+	picname = "M_BABY"
+	spawnfilter = 1
+	damagefactor = 0.25
+	mustconfirm = "Really? The easiest difficulty?"
+}
+
+skill easy
+{
+	name = "Give me a break"
+	picname = "M_EASY"
+	damagefactor = 0.5
+}
+
+skill normal
+{
+	name = "A leap of faith"
+	picname = "M_NORMAL"
+	spawnfilter = 3
+}
+
+skill hard
+{
+	name = "Fall by my blade!"
+	picname = "M_HARD"
+	damagefactor = 2
+	spawnfilter = 4
+}
+
+clearepisodes
+
+defaultmap
+{
+	deathcam = false
+}
+
+episode "E1M1"
+{
+	lookup = "The Prince of Persia"
+	picname = "M_EPIS1"
+	key = "E"
+}
+
+cluster 1
+{
+	exittext = "ENDART1"
+	exittextislump
+}
+
+map "E1M1"
+{
+	next = "E1M2"
+	//secretnext = "E1M1"
+	floornumber = 1
+	par = 90
+	music = "TAJMAHAL"
+	cluster = 1
+	defaultfloor = "FLORDUNA"
+	defaultceiling = "CEILDUNA"
+	bordertexture = "CEILDUNA"
+	//ensureinventory = "Sword"
+}
+
+map "E1M2"
+{
+	next = "E1M3"
+	//secretnext = "E1M1"
+	floornumber = 2
+	par = 90
+	music = "MOBARAK2"
+	cluster = 1
+	defaultfloor = "FLORDUNA"
+	defaultceiling = "CEILDUNA"
+	bordertexture = "CEILDUNA"
+	ensureinventory = "Sword"
+}
+
+map "E1M3"
+{
+	next = "E1M1"
+	//secretnext = "E1M1"
+	floornumber = 3
+	par = 90
+	music = "SCARY"
+	cluster = 1
+	defaultfloor = "FLORDUNB"
+	defaultceiling = "CEILDUNB"
+	bordertexture = "CEILDUNB"
+	ensureinventory = "Sword"
+}

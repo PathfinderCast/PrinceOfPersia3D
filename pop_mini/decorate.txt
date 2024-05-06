@@ -1,0 +1,7 @@
+#include "actors/theprince.txt"
+#include "actors/palaceguards.txt"
+#include "actors/persiaitems.txt"
+#include "actors/traps.txt"
+#include "actors/popprops.txt"
+#include "actors/puzzleobjects.txt"
+#include "actors/popbosses.txt"
